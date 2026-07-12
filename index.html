@@ -1,104 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Sabin Rai | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabin Rai | Personal Portfolio</title>
 </head>
 
 <body>
 
-    <!-- Header -->
     <header>
+        <h1>Sabin Rai - Personal Portfolio</h1>
 
-        <!-- Logo and Navigation -->
-        <table width="100%" border="0">
-            <tr>
-                <td>
-                    <h2>SR Portfolio</h2>
-                </td>
-
-                <td align="center">
-                    <nav>
-                        <a href="#home">Home</a> |
-                        <a href="#about">About</a> |
-                        <a href="#skills">Skills</a> |
-                        <a href="#projects">Projects</a> |
-                        <a href="#contact">Contact</a>
-                    </nav>
-                </td>
-
-                <td align="right">
-                    <form>
-                        <input type="search" placeholder="Search...">
-                        <input type="submit" value="Search">
-                    </form>
-                </td>
-            </tr>
-        </table>
-
-        <hr>
-
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About</a> |
+                    <a href="#skills">Skills</a> |
+                    <a href="#projects">Projects</a> |
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Home Section -->
-    <section id="home">
+    <main>
 
-        <table width="100%">
-            <tr>
+        <section id="about">
+            <h2>About Me</h2>
 
-                <td width="70%">
-                    <h1>Welcome to My Portfolio</h1>
+            <img src="Logo.jpg"
+                 alt="Profile photograph of Sabin Rai"
+                 width="200"
+                 height="200">
 
-                    <h2>Hello, I'm Sabin Rai</h2>
+            <p></p>
 
-                    <p>
-                        I am an Information Technology student passionate about
-                        programming, web development, networking, cybersecurity,
-                        and learning new technologies.
-                    </p>
+            <p>
+                Hello! My name is Sabin Rai. I am currently pursuing a Bachelor of
+                Information Technology (BIT). I enjoy learning web development,
+                cybersecurity, networking, and software development. I continuously
+                improve my technical knowledge through academic projects and practical
+                learning.
+            </p>
 
-                </td>
+            <br>
+        </section>
 
-                <td align="center">
+        <section id="skills">
+            <h2>Technical Skills</h2>
 
-                    <!-- Replace profile.jpg with your image -->
-                    <img src="profile.jpg"
-                         alt="Profile Picture"
-                         width="220"
-                         height="220">
+            <dl>
+                <dt><strong>HTML5</strong></dt>
+                <dd>Creating semantic and accessible web pages.</dd>
 
-                </td>
+                <br>
 
-            </tr>
-        </table>
+                <dt><strong>C Programming</strong></dt>
+                <dd>Developing console applications using functions, arrays, and file handling.</dd>
 
-        <hr>
+                <br>
 
-    </section>
+                <dt><strong>C++</strong></dt>
+                <dd>Object-oriented programming fundamentals.</dd>
 
-    <!-- About -->
-    <section id="about">
+                <br>
 
-        <h2>About Me</h2>
+                <dt><strong>Figma</strong></dt>
+                <dd>Basic UI/UX wireframing and interface design.</dd>
 
-        <p>
-            I am currently pursuing a Bachelor's degree in Information Technology.<br>
-            I enjoy building websites, learning programming languages,
-            exploring ethical hacking, and solving technical problems.
-        </p>
+                <br>
 
-        <hr>
+                <dt><strong>Cybersecurity</strong></dt>
+                <dd>Knowledge of Burp Suite, Nmap, and Kali Linux.</dd>
+            </dl>
 
-    </section>
+            <br>
+        </section>
 
-    <!-- Footer -->
-    <footer align="center">
+        <section id="projects">
+            <h2>Projects</h2>
 
-        <p>
-            © 2026 Sabin Rai | All Rights Reserved
-        </p>
+            <article>
+                <h3>Student Attendance Management System</h3>
 
+                <p>
+                    A C programming project that manages student attendance records
+                    using file handling, structures, and menus.
+                </p>
+                
+            </article>
+
+            <br>
+
+            <article>
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    A semantic HTML5 portfolio website demonstrating proper document
+                    structure and accessibility without using CSS.
+                </p>
+
+                <p>
+                    Repository:
+                    <a href="https://github.com/yourusername/html-portfolio" target="_blank">
+                        HTML Portfolio
+                    </a>
+                </p>
+            </article>
+
+            <br>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+                </p>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sabin Rai. All Rights Reserved.</p>
     </footer>
 
 </body>
+
 </html>
