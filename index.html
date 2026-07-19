@@ -5,142 +5,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sabin Rai | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
+
         <h1>Sabin Rai - Personal Portfolio</h1>
 
         <nav>
             <ul>
-                <li>
-                    <a href="#about">About</a> |
-                    <a href="#skills">Skills</a> |
-                    <a href="#projects">Projects</a> |
-                    <a href="#contact">Contact</a>
-                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
     </header>
 
     <main>
 
         <section id="about">
+
             <h2>About Me</h2>
 
-            <img src="profile.jpeg"
-                 alt="Profile photograph of Sabin Rai"
-                 width="200"
-                 height="200">
-
-            <p></p>
+            <img src="Logo.jpg"
+                width="200"
+                height="200">
 
             <p>
                 Hello! My name is Sabin Rai. I am currently pursuing a Bachelor of
-                Information Technology (BIT). I enjoy learning web development,
-                cybersecurity, networking, and software development. I continuously
-                improve my technical knowledge through academic projects and practical
-                learning.
+                Information Technology (BIT).
             </p>
 
-            <br>
+            <p>
+                I am interested in web development, cybersecurity,
+                networking, and software development. I enjoy learning new
+                technologies and developing practical projects to improve my
+                technical knowledge.
+            </p>
+
         </section>
 
         <section id="skills">
+
             <h2>Technical Skills</h2>
 
             <dl>
-                <dt><strong>HTML5</strong></dt>
+
+                <dt>HTML5</dt>
                 <dd>Creating semantic and accessible web pages.</dd>
 
-                <br>
+                <dt>C Programming</dt>
+                <dd>Developing applications using functions and file handling.</dd>
 
-                <dt><strong>C Programming</strong></dt>
-                <dd>Developing console applications using functions, arrays, and file handling.</dd>
+                <dt>C++</dt>
+                <dd>Understanding object-oriented programming concepts.</dd>
 
-                <br>
+                <dt>Cybersecurity</dt>
+                <dd>Basic knowledge of Kali Linux, Nmap, Burp Suite, and web security.</dd>
 
-                <dt><strong>C++</strong></dt>
-                <dd>Object-oriented programming fundamentals.</dd>
+                <dt>Figma</dt>
+                <dd>Creating simple UI wireframes and interface designs.</dd>
 
-                <br>
-
-                <dt><strong>Figma</strong></dt>
-                <dd>Basic UI/UX wireframing and interface design.</dd>
-
-                <br>
-
-                <dt><strong>Cybersecurity</strong></dt>
-                <dd>Knowledge of Burp Suite, Nmap, and Kali Linux.</dd>
             </dl>
 
-            <br>
         </section>
 
         <section id="projects">
+
             <h2>Projects</h2>
 
             <article>
+
                 <h3>Student Attendance Management System</h3>
 
                 <p>
-                    A C programming project that manages student attendance records
-                    using file handling, structures, and menus.
+                    A C programming project that manages attendance records
+                    using structures and file handling.
                 </p>
-                
+
+                <a href="https://github.com/yourusername/student-attendance-system">
+                    Student Attendance System Repository
+                </a>
+
             </article>
 
-            <br>
-
             <article>
+
                 <h3>Personal Portfolio Website</h3>
 
                 <p>
-                    A semantic HTML5 portfolio website demonstrating proper document
-                    structure and accessibility without using CSS.
+                    A semantic HTML5 portfolio website demonstrating
+                    accessibility and proper webpage structure.
                 </p>
 
-                <p>
-                    Repository:
-                    <a href="https://github.com/yourusername/html-portfolio" target="_blank">
-                        HTML Portfolio
-                    </a>
-                </p>
+                <a href="https://github.com/yourusername/html-portfolio">
+                    Portfolio Repository
+                </a>
+
             </article>
 
-            <br>
         </section>
 
         <section id="contact">
+
             <h2>Contact Me</h2>
 
             <form action="#" method="post">
 
                 <p>
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" required>
+
+                    <label for="name">Name</label><br>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required>
+
                 </p>
 
                 <p>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required>
+
+                    <label for="email">Email</label><br>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+
                 </p>
 
                 <p>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+
+                    <label for="message">Message</label><br>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        cols="40"
+                        required></textarea>
+
                 </p>
 
                 <button type="submit">Submit</button>
 
             </form>
+
         </section>
 
     </main>
 
     <footer>
-        <p>&copy; 2026 Sabin Rai. All Rights Reserved.</p>
+
+        <p>
+            © 2026 Sabin Rai. All Rights Reserved.
+        </p>
+
     </footer>
 
 </body>
